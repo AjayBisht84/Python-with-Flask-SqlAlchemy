@@ -1,0 +1,20 @@
+{% extends "Layout.html" %}
+
+{% block content %}
+        <H1>Add Todo's</H1>
+        <form method="POST">
+            <div class="mb-3">
+                <label for="txtautohor" class="form-label">Todo Title</label>
+                <input type="autohor" name="txtautohor" class="form-control" id="txtautohor">
+              </div>
+              <div class="mb-3">
+                <label for="txtcontent" class="form-label">Todo Description</label>
+                <textarea class="form-control" name="txtcontent" id="txtcontent" rows="3"></textarea>
+              </div>
+              <div class="mb-3">  <button type="submit" class="btn btn-dark">Submit</button></div>
+  
+</form>
+    {% endblock content %}
+
+  
+   
